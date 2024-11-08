@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    thead {
+        color: aliceblue;
+    }
+
+    table,th,td {
+
+        border-collapse: collapse;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    tr th span
+    {
+        padding-bottom: 0px;
+    }
+    .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #d2d2d2;
+            color: rgb(71, 71, 71);
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #7b838f;
+        }
+        .button:hover {
+            background-color: #3b4f6b;
+            color: #ffffff;
+        }
+        .choose{
+            background-color: rgb(1, 11, 72);
+            opacity: 50%;
+        }
+        .starter
+        {
+            background-color: rgb(1, 11, 72);
+            opacity: 60%;
+        }
+        .econom
+        {
+            background-color: rgb(1, 11, 72);
+            opacity: 80%;
+        }
+        .standard
+        {
+            background-color: rgb(1, 11, 72);
+            opacity: 90%;
+        }
+        .professional
+        {
+            background-color: rgb(1, 11, 72);
+            opacity: 100%;
+        }
+        tr th span
+        {
+            font-size: 30px;
+        }
+        .even {
+        background-color: #e9e7e7;
+    }
+
+    .odd {
+        background-color: #ffffff; 
+    }
+</style>
+
+<body style="font-family: Arial, sans-serif;">
+    <table> 
+        <thead>
+            <tr>
+                <th rowspan="3" class="choose">Choose your plan</td>
+                <th class="starter">starter<br><br><span>$10</span><br>per month</th>
+                <th class="econom">econom<br><br><span>$30</span><br>per month</th>
+                <th class="standard">standard<br><br><span>$59</span><br>per month</th>
+                <th class="professional">professional<br><br><span>$99</span><br>per month</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="even">
+                <td>Amount of space</td>
+                <td>20GB</td>
+                <td>40GB</td>
+                <td>110GB</td>
+                <td>Unlimeted</td>
+            </tr>
+            <tr class="odd">
+                <td>Bandwidth per month</td>
+                <td>120GB</td>
+                <td>240GB</td>
+                <td>610GB</td>
+                <td>1300GB</td>
+            </tr>
+            <tr class="even">
+                <td>Email accounts</td>
+                <td>1</td>
+                <td>15</td>
+                <td>60</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr class="odd">
+                <td>MySQL databases</td>
+                <td>1</td>
+                <td>15</td>
+                <td>60</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr class="even">
+                <td>24/7 support</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr class="odd">
+                <td>Support tickets per month</td>
+                <td>2</td>
+                <td>6</td>
+                <td>14</td>
+                <td>20</td>
+            </tr>
+            <tr class="even">
+                <td></td>
+                <td><a href="#" class="button">START</a></td>
+                <td><a href="#" class="button">START</a></td>
+                <td><a href="#" class="button">START</a></td>
+                <td><a href="#" class="button">START</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

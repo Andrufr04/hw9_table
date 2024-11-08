@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        table {
+            color: antiquewhite;
+            text-align: center;
+        }
+        
+        th, td {
+            padding: 15px 20px;
+        }
+        
+        .first-column {
+            color: rgb(87, 87, 87);
+        }
+        
+        .header-row {
+            border-bottom: 1px solid #e8e8e8;
+        }
+        
+        .footer-row {
+            border-top: 1px solid #e8e8e8;
+            font-weight: bold;
+        }
+          
+        .plan-image {
+            width: 30px;
+            height: 30px;
+        }
+
+        .col-free {
+            background-color: #68d5d9;
+        }
+        
+        .col-basic {
+            background-color: #7cdd44;
+        }
+        
+        .col-standard {
+            background-color: #ead80c;
+        }
+        
+        .col-premium {
+            background-color: rgb(250, 71, 51);
+        }
+        
+        .col-description {
+            background-color: #d1d1d1;
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+            <col class="col-description" />
+            <col class="col-free" style="width: 120px;" />
+            <col class="col-basic" style="width: 120px;" />
+            <col class="col-standard" style="width: 120px;" />
+            <col class="col-premium" style="width: 120px;" />
+        </colgroup>
+        <thead>
+            <tr class="header-row">
+                <th class="first-column">SPACIFICATION</th>
+                <th>FREE</th>
+                <th>BASIC</th>
+                <th>STANDARD</th>
+                <th>PREMIUM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-column">Lorem ipsum dolor</td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+            </tr>
+            <tr>
+                <td class="first-column">Ratione deserunt modi</td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+            </tr>
+            <tr>
+                <td class="first-column">Vel maiores odio</td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+            </tr>
+            <tr>
+                <td class="first-column">Minus vel aperiam natus</td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+            </tr>
+            <tr>
+                <td class="first-column">Provid minima sapiente</td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+            </tr>
+            <tr>
+                <td class="first-column">Eveniet eaque excepturi</td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img2.png" alt="Cross" class="plan-image"></td>
+                <td><img src="img1.png" alt="Check" class="plan-image"></td>
+            </tr>
+            <tr class="footer-row">
+                <td class="first-column">PRICE</td>
+                <td class="price-cell">$ 0.00</td>
+                <td class="price-cell">$ 9.99</td>
+                <td class="price-cell">$ 19.99</td>
+                <td class="price-cell">$ 29.99</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
